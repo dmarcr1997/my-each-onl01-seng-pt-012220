@@ -5,7 +5,7 @@ def my_each (array)
       yield array[i]
       i+=1
     end
-    array
+  array
 end
 
 collection = [1, 2, 3, 4]
