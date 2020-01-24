@@ -1,7 +1,6 @@
 def my_each (array)
   if block_given?
     i = 0
-    
     while i < array.length
       yeild array[i]
       i+=1
@@ -10,5 +9,4 @@ def my_each (array)
   else
     puts "No block given!"
   end
-    
 end
