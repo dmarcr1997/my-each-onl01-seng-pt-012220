@@ -10,3 +10,7 @@ def my_each (array)
     puts "No block given!"
   end
 end
+
+my_each(collection) do |i|
+  puts i 
+end
